@@ -230,6 +230,50 @@ footer {
   margin-right: 0;
 }
 
+.icon-antenna::before {
+display: block;
+content: "";
+height: 120px;
+margin-bottom: 30px;
+background-image: url(../images/pmg-icon/antenna.png);
+background-repeat: no-repeat;
+background-position: center;
+background-color: #F5F4FA;
+}
+
+.icon-clock::before {
+  display: block;
+  content: "";
+  height: 120px;
+  margin-bottom: 30px;
+  background-image: url(../images/pmg-icon/clock.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+}
+
+.icon-diagram::before {
+  display: block;
+  content: "";
+  height: 120px;
+  margin-bottom: 30px;
+  background-image: url(../images/pmg-icon/diagram.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+}
+
+.icon-astronaut::before {
+  display: block;
+  content: "";
+  height: 120px;
+  margin-bottom: 30px;
+  background-image: url(../images/pmg-icon/astronaut.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+}
+
 .peculiarities-title {
   font-weight: 700;
   font-size: 14px;
