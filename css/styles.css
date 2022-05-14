@@ -123,7 +123,6 @@ footer {
   display: block;
 }
 
-
 .auth-nav {
   margin-left: auto;
   display: flex;
@@ -132,7 +131,7 @@ footer {
 
 .auth-nav-mail {
   margin-right: 50px;
- }
+}
 
 .auth-nav-link {
   font-weight: 500;
@@ -341,6 +340,7 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 16px;
 }
 
 .demianenko,
@@ -352,6 +352,46 @@ footer {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background: #ffffff;
+}
+
+/* Socials icons */
+
+.socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-link:hover,
+.social-link:focus {
+background-color: #2196F3;
+}
+
+.socials-item {
+  margin-right: 10px;
+}
+
+.socials-item:last-child {
+  margin-right: 0;
+}
+
+.socials-icon {
+  fill: #AFB1B8;
+}
+
+.social-link:hover .socials-icon,
+.social-link:focus .socials-icon {
+fill: #ffffff;
 }
 
 /*#endregion*/
@@ -415,9 +455,9 @@ footer {
 
 .portfolio-projects-list:hover,
 .porfolio-projects-list:focus {
-  background: #FFFFFF;
-  
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .border-size {
