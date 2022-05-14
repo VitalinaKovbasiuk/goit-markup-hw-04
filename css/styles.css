@@ -144,8 +144,8 @@ footer {
   padding-bottom: 32px;
   display: block;
   display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .auth-nav-link:hover,
@@ -512,12 +512,12 @@ footer {
 
 .regular-customers-head {
   font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-bottom: 50px;
-    }
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
 
 .regular-customers-list {
   display: flex;
@@ -532,13 +532,13 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 1px;
 }
 
 .regular-customers-link:hover,
 .regular-customers-link:focus {
-  border: 1px solid #2196F3;
+  border: 1px solid #2196f3;
 }
 
 .regular-customers-item {
@@ -550,16 +550,25 @@ footer {
 }
 
 .regular-customers-icon {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .regular-customers-link:hover .regular-customers-icon,
 .regular-customers-link:focus .regular-customers-icon {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 /*#endregion*/
 
 /*#region FOOTER*/
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-right {
+  margin-right: 70px;
+}
 
 .footer {
   padding-top: 60px;
@@ -603,7 +612,53 @@ footer {
 .address-link-footer:not(:last-child) {
   margin-bottom: 9px;
 }
+
+/* Join icons */
+
+.join-head {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.join-list {
+  display: flex;
+  align-items: center;
+}
+
+.join-link {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-link:hover,
+.join-link:focus {
+  background-color: #2196f3;
+}
+
+.join-item {
+  margin-right: 10px;
+}
+
+.join-item:last-child {
+  margin-right: 0;
+}
+
+.join-icon {
+  fill: #ffffff;
+}
+
+.join-link:hover .socials-icon,
+.join-link:focus .socials-icon {
+  fill: #ffffff;
+}
 /*#endregion*/
-
-
-
