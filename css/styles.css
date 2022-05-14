@@ -374,7 +374,7 @@ footer {
 
 .social-link:hover,
 .social-link:focus {
-background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .socials-item {
@@ -386,12 +386,12 @@ background-color: #2196F3;
 }
 
 .socials-icon {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .social-link:hover .socials-icon,
 .social-link:focus .socials-icon {
-fill: #ffffff;
+  fill: #ffffff;
 }
 
 /*#endregion*/
@@ -499,6 +499,57 @@ fill: #ffffff;
 
 /*#endregion*/
 
+/*#region REGULAR CUSTOMERS*/
+
+.regular-customers-head {
+  font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    }
+
+.regular-customers-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.regular-customers-link {
+  width: 170px;
+  height: 92px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #AFB1B8;
+  border-radius: 1px;
+}
+
+.regular-customers-link:hover,
+.regular-customers-link:focus {
+  border: 1px solid #2196F3;
+}
+
+.regular-customers-item {
+  margin-right: 30px;
+}
+
+.regular-customers-item:last-child {
+  margin-right: 0;
+}
+
+.regular-customers-icon {
+  fill: #AFB1B8;
+}
+
+.regular-customers-link:hover .regular-customers-icon,
+.regular-customers-link:focus .regular-customers-icon {
+  fill: #2196F3;
+}
+/*#endregion*/
+
 /*#region FOOTER*/
 
 .footer {
@@ -544,3 +595,6 @@ fill: #ffffff;
   margin-bottom: 9px;
 }
 /*#endregion*/
+
+
+
