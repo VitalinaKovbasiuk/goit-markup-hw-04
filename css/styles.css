@@ -157,6 +157,13 @@ footer {
   fill: currentColor;
   margin-right: 10px;
 }
+.studio-header-nav {
+color: #2196F3;
+}
+
+.portfolio-header-nav {
+  color: #2196F3;
+}
 
 /*#endregion*/
 
@@ -462,8 +469,13 @@ footer {
   margin-bottom: 0;
 }
 
-.portfolio-projects-list:hover,
-.porfolio-projects-list:focus {
+.portfolio-list-link {
+  text-decoration: none;
+}
+
+.portfolio-list-link:hover,
+.portfolio-list-link:focus {
+  display: block;
   background: #ffffff;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -490,10 +502,6 @@ footer {
   color: #212121;
   text-decoration: none;
   margin-bottom: 4px;
-}
-
-.portfolio-list-link {
-  text-decoration: none;
 }
 
 .project-class {
